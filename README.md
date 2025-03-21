@@ -34,7 +34,14 @@ Principais Características
 - Documentação Oficial: A documentação oficial do Go é abrangente e bem estruturada, facilitando o aprendizado e a referência.
 - Frameworks e Bibliotecas: Existem muitos frameworks e bibliotecas de terceiros que estendem as funcionalidades do Go, como Gin, Echo, Gorm, e muitos outros.
 - Eventos e Conferências: A comunidade Go organiza eventos e conferências, como GopherCon, onde desenvolvedores podem compartilhar conhecimentos e experiências.
+  
+## Aqui estão alguns recursos úteis para aprender mais sobre Go:
 
+- [Documentação Oficial do Go](https://go.dev/doc/)
+- [Tour do Go](https://go.dev/tour/welcome/1)
+- [Go by exemple](https://gobyexample.com/)
+- [Exercism - Go Track](https://exercism.org/tracks/go)
+  
 ## Conclusão
 
 Go é uma linguagem de programação poderosa e versátil, projetada para atender às necessidades do desenvolvimento moderno. Sua combinação de simplicidade, desempenho e suporte a concorrência a torna uma escolha popular entre desenvolvedores e empresas que buscam construir aplicações escaláveis e eficientes. Se você está começando sua jornada na programação ou é um desenvolvedor experiente, Go oferece as ferramentas e recursos necessários para criar software de alta qualidade.
