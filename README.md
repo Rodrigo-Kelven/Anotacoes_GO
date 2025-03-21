@@ -41,6 +41,18 @@ Principais Características
 - [Tour do Go](https://go.dev/tour/welcome/1)
 - [Go by exemple](https://gobyexample.com/)
 - [Exercism - Go Track](https://exercism.org/tracks/go)
+
+## Como Contribuir?
+
+Contribuições são sempre bem-vindas! Se você deseja adicionar suas próprias anotações, exemplos ou exercícios, siga estas etapas:
+
+- Faça um fork deste repositório.
+- Crie uma nova branch para sua contribuição (git checkout -b minha-contribuicao).
+- Adicione suas anotações, exemplos ou exercícios.
+- Faça um commit das suas alterações (git commit -m 'Adiciona novas anotações').
+- Envie sua branch para o repositório remoto (git push origin minha-contribuicao).
+- Abra um Pull Request.
+
   
 ## Conclusão
 
