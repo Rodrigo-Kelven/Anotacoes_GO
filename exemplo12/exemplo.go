@@ -3,24 +3,23 @@ package main
 import (
 	"fmt"
 	"strconv"
-	
 )
 
 // o go forca a colocar os tipos dos parametros por ser fortemente tipado!
 // para que esta funcao seja usada em outros pacotes externos, coloca-se  a primeira letra como maiuscula Hello
-func Hello(nome string){
+func Hello(nome string) {
 
 	fmt.Println("Hello", nome, "!")
 }
 
-// passar parametros e seus respectivos tipos, 
+// passar parametros e seus respectivos tipos,
 // como será retornado valores, tem que especificar o tipo de dado retornado apos os parenteses
-func soma(a int, b int) int{ // tambem pode ser a,b int, go emtende que esta sequencia se parametros será de numeros do tipo inteiro
+func soma(a int, b int) int { // tambem pode ser a,b int, go emtende que esta sequencia se parametros será de numeros do tipo inteiro
 	return a + b
 }
 
 // convert string in inteiro e soma
-func convertADDSun(a int, b string) (total int, err error){
+func convertADDSun(a int, b string) (total int, err error) {
 	i, err := strconv.Atoi(b)
 
 	// nil significa ausencia de erro, ou seja, correto, seguindo uma logica inversa
@@ -28,11 +27,10 @@ func convertADDSun(a int, b string) (total int, err error){
 	if err != nil {
 		return
 	}
-	
-	total = a +i
-	return 
-}
 
+	total = a + i
+	return
+}
 
 func main() {
 	fmt.Println("Primeira forma usando a funcao Hello()")
@@ -52,7 +50,7 @@ func main() {
 
 	// primeira forma usando a funcao soma
 	fmt.Println("Primeira forma usando a funcao soma()")
-	fmt.Println("Total soma da primeira forma:", soma(4,5))
+	fmt.Println("Total soma da primeira forma:", soma(4, 5))
 
 	fmt.Println("Segunda forma usando a funcao soma()")
 	// segunda forma,
@@ -74,5 +72,3 @@ func main() {
 	fmt.Println("Total soma2:", total, err)
 
 }
-
-
