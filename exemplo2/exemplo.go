@@ -19,6 +19,12 @@ func main() {
 
 	fmt.Println(b,f,s)
 
+	// ou declarar e inicializar
+	c, g, h := true, 2.32, "Ola"
+
+	fmt.Println(c,g,h)
+
+
 	// trocando os valores de variaveis
 	var x, y = 10, 20
 	fmt.Println(x, y)
@@ -53,5 +59,17 @@ func main() {
 
 	test2 := "String com variavel declarada!" 
 	fmt.Printf("Exemplo e de declaracao de variavel: %s\n", test2)
+
+	// nova forma de declarar variaveis
+	var (
+		name string = "Kelven"
+		age int8 = 19
+	)
+	fmt.Printf("Name: %s, Age: %d\n", name, age)
+
+	// se forem de tipos iguais
+	var idade2, altura = 19, 187
+
+	fmt.Println("Idade2 é", idade2, "Altura é", altura)
 
 }

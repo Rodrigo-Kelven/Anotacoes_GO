@@ -4,11 +4,18 @@ import "fmt"
 
 func main() {
 	// Operadores lógicos
+	// && = e
+	// || = ou
+	// ! = diferente
+
 	var valor1 bool = true
 	var valor2 bool = false
 
 	resultado := valor1 && valor2
 	fmt.Printf("%t && %t = %t\n", valor1, valor2, resultado)
+
+	var x int = 4;
+	fmt.Println("x > 3 && x < 5\n", x)
 
 	numero1 := 3
 	numero2 := 5
@@ -45,7 +52,7 @@ func main() {
 	fmt.Println("Divisão: 3")
 	fmt.Println("Multiplicação: 4")
 	var opcao string
-	fmt.Scanf("%s", &opcao)
+	fmt.Scanf("%s", &opcao) //ponteiro unitario alocando memoria para armazenar o que foi passado dentro de opcao
 
 	// Usando if para calcular
 	if opcao == "1" {
