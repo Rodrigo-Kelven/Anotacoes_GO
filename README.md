@@ -38,7 +38,7 @@ Principais Características
 ## Aqui estão alguns recursos úteis para aprender mais sobre Go:
 
 - [Documentação Oficial do Go](https://go.dev/doc/)
-- [Tour do Go]([https://go.dev/tour/welcome/1](https://go-tour-br.appspot.com/tour/welcome/1))
+- [Tour do Go](https://go-tour-br.appspot.com/tour/welcome/1)
 - [Tour do Go list](https://go-tour-br.appspot.com/tour/list)
 - [Go by exemple](https://gobyexample.com/)
 - [Exercism - Go Track](https://exercism.org/tracks/go)
