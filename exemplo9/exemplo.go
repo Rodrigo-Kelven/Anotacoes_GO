@@ -14,7 +14,7 @@ func main() {
 	resultado := valor1 && valor2
 	fmt.Printf("%t && %t = %t\n", valor1, valor2, resultado)
 
-	var x int = 4;
+	var x int = 4
 	fmt.Println("x > 3 && x < 5\n", x)
 
 	numero1 := 3
@@ -116,5 +116,19 @@ func main() {
 		fmt.Printf("A multiplicação de %.2f * %.2f é %.2f\n", umm_numero, outroo_numero, resultado_calcu)
 	default:
 		fmt.Println("Opção inválida.")
+	}
+
+
+	fmt.Print("Digite a nota do aluno: ")
+	var nota float64
+	fmt.Scanf("%f\n", &nota)
+
+	switch nota { // condicao
+	case 10.0: // caso
+		fmt.Println("Nota muito boa")
+	case 9.0:
+		fmt.Println("Nota boa")
+	default:
+		fmt.Println("Ruim")	
 	}
 }

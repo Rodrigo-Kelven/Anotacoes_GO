@@ -51,4 +51,39 @@ func main() {
 		i++
 	}
 
+	// while usando for
+	// while é basicamente um for em inicializacao e sem o passo/decremento/incremento
+	// inicializaca
+	var soma int = 2
+
+	for ; soma < 600; { // while
+		fmt.Println(soma)
+		soma += soma // soma = soma + soma
+	}
+
+	
+	// incremento
+	for ok := 0; ok <= 10; ok++{
+		fmt.Printf("%d ", ok)
+	}
+	fmt.Println(" ")
+	// decremento
+	for ko := 10; ko >=0; ko--{
+		fmt.Printf("%d ", ko)
+	}
+	fmt.Println("")
+
+	// declaracao e inicializacao do slice do tipo string
+	lista := []string{"EU", "TU", "NOS", "ELE"}
+
+	// primeira forma
+	// for usando range onde será exibido o range e o nome dentro do slice
+	for k, nos := range lista{
+		fmt.Println(k, nos)
+	}
+	// for percorrendo o slice pegango o tamanho como condicao, exibindo e incrementando
+	for s:=0; s < len(lista); s++{
+		fmt.Println(lista[s]) // exibindo o indice do slice de acordo que o for percorre
+	}
+
 }
