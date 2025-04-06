@@ -58,3 +58,7 @@ Contribuições são sempre bem-vindas! Se você deseja adicionar suas próprias
 ## Conclusão
 
 Go é uma linguagem de programação poderosa e versátil, projetada para atender às necessidades do desenvolvimento moderno. Sua combinação de simplicidade, desempenho e suporte a concorrência a torna uma escolha popular entre desenvolvedores e empresas que buscam construir aplicações escaláveis e eficientes. Se você está começando sua jornada na programação ou é um desenvolvedor experiente, Go oferece as ferramentas e recursos necessários para criar software de alta qualidade.
+
+
+## Autores
+- [@Rodrigo_Kelven](https://github.com/Rodrigo-Kelven)
